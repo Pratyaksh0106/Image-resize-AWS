@@ -1,7 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-    access_key = "AKIASBGQLQ6U63NDO35M"
-  secret_key = "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"
+
 }
 
 resource "aws_s3_bucket" "original_images" {
